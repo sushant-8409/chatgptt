@@ -1,0 +1,40 @@
+# Node.js specific
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Editor files
+.DS_Store
+.editorconfig
+.eslintcache
+.tern-project
+
+# IDE specific
+.idea/
+*.suo
+*.user
+*.sln
+
+# Build artifacts
+/dist/
+/build/
+*.log
+*.pid
+*.sock
+
+# Sensitive data
+secrets.json
+api_keys.json
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+*.sync
+*.log
+
+# MERN-specific
+node_modules
+backend/node_modules/
+.vite
+dist
